@@ -6,7 +6,7 @@ jQuery 4 C#! Navigate C# Object-Tree like JQuery does the DOM!
 ### *new* - Create test classes
 ```C#
 test_openo testy = new test_openo();
-// testy.isTrue == false && testy.isFalse = false;
+// testy.isTrue == true && testy.isFalse = false;
 
 var a = new a();
 // a.i == 0 && a.j == 100;
