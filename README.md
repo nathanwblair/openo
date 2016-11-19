@@ -15,18 +15,18 @@ var a = new a();
 ### *os*() - Query for first valid Member
 * Member **Function** *or* **Variable**
 ```C#
-var start = testy.os("Storte", "Start", "Test"); // Query function
+var testy_start = testy.os("Storte", "Start", "Test"); // Query function
 objecto objecto_j = a.o("j"); // Query variable
 ```
 ---
 
 ### *o*() - Query for result of Start
 ```C#
-start.o() // Returns void
-// testy.isTrue == false;
+testy_start.o() // Returns void
+// NOW: testy.isTrue == false;
 
 int j = a.o("j").As<int>(); // returns 100 (value of a.j)
-// j == 100 && a.j == 100;
+//NOW: j == 100 && a.j == 100;
 ```
 ---
 
